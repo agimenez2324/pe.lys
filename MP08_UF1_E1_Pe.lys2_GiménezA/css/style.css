@@ -1,0 +1,113 @@
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: ;
+
+}
+
+#barra{
+    height: 50px;
+    width: auto;
+    background-repeat: no-repeat;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 14;
+}
+
+#logo{
+    width: 40px;
+    height: 30px;
+    background-size: contain;
+    background-image:url(../img/logo.png);
+    padding-bottom: 5px;
+    margin-top:10px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.ul{
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #fff; ;
+    text-align: left;
+    padding: 10px;
+    
+}
+
+li{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+li.app{
+    float: right;
+    text-align: right;
+    display: inline-block;
+}
+
+#Documentals{
+    margin-top: 70px;
+}
+
+#contenedor{
+    width: auto;
+    height: 900px;  
+}
+
+
+.documental{
+    width: 175px;
+    float: left;
+    padding: 20px;
+}
+.nombre{
+    font-size: 14px;
+}
+
+#any{
+    width: 50%;
+    float: left;
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+#tipus{
+    width: 50%;
+    float: right;
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+h1{
+    clear: both;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.documentalsvistos{
+    filter: grayscale(100%);
+    display: inline;
+    float: left;
+    padding: 20px;
+}
+
+.vist{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    float: left;
+    padding: 20px;
+    
+}
+
+img:hover{
+    filter: opacity(50%);
+}
